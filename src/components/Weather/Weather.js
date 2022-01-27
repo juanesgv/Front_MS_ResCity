@@ -1,10 +1,8 @@
-import React from 'react'
-import './Styles/ClimaComponent.css'
-import 'boxicons'
-import sunny from '../ClimaIconos/sunny.svg'
-import rain from '../ClimaIconos/rain.svg'
+import React from 'react';
+import './Weather.css';
+import 'boxicons';
 
-const ClimaComponent = ({ciudad,fechaYhora,temperatura,humedad,iconoclima}) => (
+const Weather = ({ciudad,fechaYhora,temperatura,humedad,iconoclima}) => (
     
     <div className='ClimaCard'>
         <div className='ciudad' >
@@ -32,4 +30,4 @@ const ClimaComponent = ({ciudad,fechaYhora,temperatura,humedad,iconoclima}) => (
     </div>
 );
 
-export default ClimaComponent;
+export default Weather;

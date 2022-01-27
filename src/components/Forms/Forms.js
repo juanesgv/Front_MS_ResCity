@@ -1,10 +1,7 @@
 import React from 'react';
-import './Styles/Forms.css'
+import './Forms.css'
 import { Button, ThemeProvider,TextField, Grid, Box } from '@material-ui/core';
 import theme from '../../temaConfig';
-
-
-
 
 const Forms = () => (
 

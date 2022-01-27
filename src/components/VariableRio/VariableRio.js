@@ -1,10 +1,6 @@
 import React from 'react'
-import './Styles/VariableRio.css'
+import './VariableRio.css'
 import 'boxicons'
-import caudalcono from '../VariableIconos/caudal.svg'
-import temperaturaRio from '../VariableIconos/temperaturaRio.svg'
-import nivelAgua from '../VariableIconos/nivelAgua.svg'
-
 
 const VariableRio =({iconoVariable, nombreVariable,valorVariable}) => (
     <div className='variableCard'>
