@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, Tab, Tabs, ThemeProvider, Typography } from '@material-ui/core';
 import theme from '../../temaConfig';
 import PropTypes from 'prop-types';
-import './Styles/MuiTab.css'
-import Home from '../Pages/Home'
+import './MuiTab.css';
+import Home from '../Home/Home';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
