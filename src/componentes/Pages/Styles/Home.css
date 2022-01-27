@@ -1,0 +1,18 @@
+
+
+.TituloHome{
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.ClimaHoy{
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.MapaRio{
+    background-color: blue;
+    height: 500px;
+}

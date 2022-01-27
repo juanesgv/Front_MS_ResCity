@@ -1,0 +1,60 @@
+.ClimaCard{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.ciudad{
+    display: flex;
+    align-items: center;
+}
+
+.NombreCiudad{
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+.fechaYhora{
+    font-weight: 400;
+    padding-top: 4px;
+}
+.imagenClima{
+    width: 70px;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;    
+}
+.Temperaturadiv{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;   
+}
+
+.Temperaturadiv h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+.temperaturayhumudad{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.humedad{
+    position: absolute;
+    left: 80%;
+    top: 35%; 
+}
+
+.humedad div{
+    display: flex;
+    align-items: center;
+}
+
+.humedad h3 {
+    padding-left: 4px;
+    margin-top: 4px;
+}
