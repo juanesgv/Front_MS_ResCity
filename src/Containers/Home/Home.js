@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 import { Box, Grid } from '@material-ui/core';
-import Weather from '../../components/Weather/Weather'; 
+import Weather from '../../components/Weather/Weather';
 import sunny from '../../Icons/sunny.svg'
 import "./Home.css";
+import { MapContainer, TileLayer,Marker,position,Popup } from "react-leaflet";
+import { } from "leaflet";
+import 'leaflet/dist/leaflet.css';
+import MapNode from '../Maps/MapNode';
 
 export class Home extends Component {
     render() {
@@ -30,12 +34,12 @@ export class Home extends Component {
 
                         <Grid item xs={12}>
                             <div className='MapaRio'>
-                                <h1>Mapa de los nodos</h1>
+                                <MapNode></MapNode>
                             </div>
                         </Grid>
                     </Grid>
                 </Box>
-            </div>
+            </div >
         )
     };
 }

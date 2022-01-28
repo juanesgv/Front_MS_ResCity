@@ -1,4 +1,7 @@
-
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+}
 
 .TituloHome{
     font-weight: 600;
@@ -13,6 +16,6 @@
 }
 
 .MapaRio{
-    background-color: blue;
+    
     height: 500px;
 }

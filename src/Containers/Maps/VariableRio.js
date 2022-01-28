@@ -1,5 +1,5 @@
 import React from 'react'
-import './VariableRio.css'
+import './Syles/VariableRio.css'
 import 'boxicons'
 
 const VariableRio =({iconoVariable, nombreVariable,valorVariable}) => (
@@ -8,8 +8,8 @@ const VariableRio =({iconoVariable, nombreVariable,valorVariable}) => (
              <img  src ={iconoVariable}/>
         </figure>        
         <div className='variableDatos'>
-            <h4>{nombreVariable}</h4>
-            <h3>{valorVariable}</h3>
+            <p className='nombreVariable'>{nombreVariable}</p>
+            <h4 className='valorVariable'>{valorVariable}</h4>
         </div>
     </div>
 
