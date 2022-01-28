@@ -1,0 +1,32 @@
+.leaflet-popup-content p {
+    margin: 0 0;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+.variableCard{
+    display: flex;
+    padding:0 ;
+    height: 100%;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.valorVariable{
+    font-weight: 600;
+}
+
+.variableIcono{
+    margin-right: 8px;
+    min-width: 24px;
+    display: flex;
+    justify-content: center ;
+} 
+

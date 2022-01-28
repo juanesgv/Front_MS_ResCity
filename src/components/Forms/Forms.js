@@ -21,7 +21,7 @@ const Forms = () => (
                         <TextField fullWidth label="Correo electrónico" margin="normal" />
                     </Grid>
                     <Grid item xs={6}>
-                        <TextField fullWidth label="Número de celular" margin="normal" />
+                        <TextField fullWidth label="Número de celular" margin="normal"  />
                     </Grid>
                 </Grid>
 
