@@ -11,11 +11,15 @@ import caudal from "../../Icons/caudal.svg";
 const position1 = [3.4769177312970982, -76.47800550042865]
 const position2 = [3.4667226248046528, -76.47397145810586]
 
-const MakePopUp = () => {
+const MakePopUp = ({icon, nombre_variable, valor_variable}) => {
     return (
         <div>
             <Marker position={position1} icon={IconLocation}>
                 <Popup maxHeight="10000">
+
+                    {/* <h4>Latitud: <strong>3.4769177312970982</strong> </h4>
+                    <h4>Longitud: <strong>-76.47800550042865</strong></h4> */}
+                    
                     <VariableRio
                         iconoVariable={temperaturaRio}
                         nombreVariable={"Temperatura del rio"}
@@ -29,7 +33,7 @@ const MakePopUp = () => {
                     <VariableRio
                         iconoVariable={caudal}
                         nombreVariable={"Caudal"}
-                        valorVariable={"50 L/m"}
+                        valorVariable={"50 L/s"}
                     />                        
                 </Popup>
             </Marker>
@@ -48,7 +52,7 @@ const MakePopUp = () => {
                     <VariableRio
                         iconoVariable={caudal}
                         nombreVariable={"Caudal"}
-                        valorVariable={"59 L/m"}
+                        valorVariable={"59 L/s"}
                     />                        
                 </Popup>
             </Marker>
