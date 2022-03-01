@@ -9,7 +9,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
-export function CustomizedSnackbars({type, message,alerTitle,show }) {
+export function CustomizedSnackbars({type, message,alerTitle,show}) {
   const [open, setOpen] = React.useState(show);
 
   // const handleClick = () => {

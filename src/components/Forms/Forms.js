@@ -135,13 +135,11 @@ export class Forms extends Component {
                             <Button disabled={!this.isValid()} type='submit' color="primary" variant='contained'>Suscribirse</Button>
                         </Box>
                     </form>
-                </div>
-                
+                </div>  
                 
                 {
                  this.state.messageAlert.show ? <CustomizedSnackbars type={this.state.messageAlert.type} message ={this.state.messageAlert.message} alerTitle ={this.state.messageAlert.alerTitle} show ={this.state.messageAlert.show} /> :''
                 }
-                
             
             </ThemeProvider>
         )

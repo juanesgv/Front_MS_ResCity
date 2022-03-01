@@ -16,10 +16,8 @@ const MakePopUp = ({icon, nombre_variable, valor_variable}) => {
         <div>
             <Marker position={position1} icon={IconLocation}>
                 <Popup maxHeight="10000">
-
                     {/* <h4>Latitud: <strong>3.4769177312970982</strong> </h4>
                     <h4>Longitud: <strong>-76.47800550042865</strong></h4> */}
-                    
                     <VariableRio
                         iconoVariable={temperaturaRio}
                         nombreVariable={"Temperatura del rio"}
