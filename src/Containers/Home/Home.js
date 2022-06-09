@@ -137,8 +137,7 @@ export class Home extends Component {
                                     <TileLayer
                                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                    />
-                                    {/* <MakePopUp></MakePopUp> */}
+                                    />                                  
 
                                     {
                                         this.state.data_nodo_joined.map((item, idx) => {
@@ -150,11 +149,11 @@ export class Home extends Component {
                                                                 item.DATA?.map((x, i) => {
                                                                     return(
                                                                         // <VariableRio nombreVariable={x.NOMBRE_VARIABLE.toLowerCase().replace(/\w\S*/g, function(t) { return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase(); })} valorVariable={`${x.VALOR} ${x.UNIDAD_MEDIDA}`} />
-                                                                        <VariableRio nombreVariable={x.NOMBRE_VARIABLE.toLowerCase().replace("_", " ").replace(/\w\S*/g, function(t) { return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase(); })} valorVariable={`${x.VALOR.toFixed(1)} ${x.UNIDAD_MEDIDA}`} />
+                                                                        <VariableRio key={i} nombreVariable={x.NOMBRE_VARIABLE.toLowerCase().replace("_", " ").replace(/\w\S*/g, function(t) { return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase(); })} valorVariable={`${x.VALOR.toFixed(1)} ${x.UNIDAD_MEDIDA}`} />
                                                                     )
                                                                 })
                                                             :
-                                                            <p>Soy una perra</p>
+                                                            <p>No hay variables en el nodo sensor</p>
                                                         }
                                                     </Popup>
                                                 </Marker>
